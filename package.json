@@ -1,0 +1,32 @@
+{
+  "name": "sql-migrate-js",
+  "version": "0.9.0",
+  "description": "`SQL-migrate-js` is a tiny library for managing migrations with minimal dependencies.",
+  "main": "migrate.js",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_ENV=test mocha ./*.test.js -- --quiet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dorky-Robot/sql-migrate-js.git"
+  },
+  "keywords": [
+    "sql",
+    "postgres",
+    "migration"
+  ],
+  "author": "Felix Flores",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dorky-Robot/sql-migrate-js/issues"
+  },
+  "homepage": "https://github.com/Dorky-Robot/sql-migrate-js#readme",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "pg": "^8.11.3"
+  }
+}
