@@ -8,7 +8,7 @@ import pg from "pg";
  */
 
 export const ENV = process.env.NODE_ENV || "development";
-dotenv.config({ path: `.env.${ENV}` });
+dotenv.config({ path: `.db.${ENV}` });
 if (!process.env.DB_USER) {
   throw new Error("DB_USER is not defined in the environment variables.");
 }
