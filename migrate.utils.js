@@ -1,6 +1,6 @@
+import dotenv from "dotenv";
 import fs from "fs";
 import path from "path";
-import dotenv from "dotenv";
 import pg from "pg";
 
 /**
@@ -13,9 +13,7 @@ if (!process.env.DB_USER) {
   throw new Error("DB_USER is not defined in the environment variables.");
 }
 
-export const MIGRATIONS_DIR = new URL(`./migrations_${ENV}/`, import.meta.url)
-  .pathname;
-
+export const MIGRATIONS_DIR = path.join(process.cwd(), `migrations_${ENV}/`);
 export const DB_CONFIG = {
   user: process.env.DB_USER,
   host: process.env.DB_HOST,
