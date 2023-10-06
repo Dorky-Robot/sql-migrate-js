@@ -1,4 +1,4 @@
-# Simple Postgres Migrations
+# ![Logo](logo.png) Simple Postgres Migrations
 
 A minimalistic PostgreSQL migrations tool inspired by the Rails migration process. Easily generate, apply, or revert database migrations using Node.js.
 
