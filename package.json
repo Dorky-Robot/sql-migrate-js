@@ -1,6 +1,6 @@
 {
   "name": "sql-migrate-js",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "description": "`SQL-migrate-js` is a tiny library for managing migrations with minimal dependencies.",
   "main": "migrate.js",
   "type": "module",
