@@ -1,6 +1,6 @@
 {
   "name": "sql-migrate-js",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "`SQL-migrate-js` is a tiny library for managing migrations with minimal dependencies.",
   "main": "migrate.js",
   "type": "module",
@@ -24,6 +24,9 @@
   "homepage": "https://github.com/Dorky-Robot/sql-migrate-js#readme",
   "devDependencies": {
     "mocha": "^10.2.0"
+  },
+  "bin": {
+    "sql-migrate": "./migrate.js"
   },
   "dependencies": {
     "dotenv": "^16.3.1",

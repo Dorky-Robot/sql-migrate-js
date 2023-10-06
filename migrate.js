@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import pg from "pg";
 import { DB_CONFIG } from "./migrate.utils.js";
 
