@@ -5,7 +5,7 @@ import {
   readMigrationContent,
 } from "./migrate.utils.js";
 import pg from "pg";
-import { composePredicates } from "./functional.js";
+import { composePredicates } from "funcadelic.js";
 
 export const APPLY_MIGRATION_FILE_SUFFIX = ".apply.sql";
 
